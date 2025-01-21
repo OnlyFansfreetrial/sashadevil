@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reminder</title>
+    <title>Sasha Devil</title>
 
     <!-- Мета-теги Open Graph для Facebook и других платформ -->
-    <meta property="og:image" content="https://i.ibb.co/pJmt3Gn/2025-01-21-145947.png" /> <!-- Ссылка на изображение для карточки -->
+    <meta property="og:image" content="https://i.ibb.co/FkrqWtt/2025-01-21-152149.png" /> <!-- Ссылка на изображение для карточки -->
     <meta property="og:title" content="Sasha Devil" />
     <meta property="og:description" content="The hottest moments, exclusivity, and passion just for you... Ready to experience true pleasure? 🍓💋" />
 
     <!-- Мета-теги для Twitter -->
     <meta name="twitter:card" content="summary_large_image" /> <!-- Тип карточки с большим изображением -->
-    <meta name="twitter:image" content="https://i.ibb.co/pJmt3Gn/2025-01-21-145947.png" /> <!-- Ссылка на изображение для Twitter карточки -->
+    <meta name="twitter:image" content="https://i.ibb.co/FkrqWtt/2025-01-21-152149.png" /> <!-- Ссылка на изображение для Twitter карточки -->
     <meta name="twitter:title" content="Sasha Devil" />
     <meta name="twitter:description" content="The hottest moments, exclusivity, and passion just for you... Ready to experience true pleasure? 🍓💋" />
 
@@ -29,28 +29,29 @@
         }
 
         .popup {
-            background-color: rgba(255, 255, 255, 0.8); /* Less transparency for better contrast */
+            background-color: rgba(0, 0, 0, 0.5); /* Темный фон с прозрачностью 50% */
+            color: white; /* Белый цвет текста для контраста */
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
             text-align: center;
-            padding: 20px 40px; /* Adjusted padding to make it more horizontal */
-            width: 60%; /* Stretched the width to 60% of the screen width */
-            max-width: 600px; /* Optional: Limit maximum width */
-            backdrop-filter: blur(8px); /* Optional blur effect behind the popup */
+            padding: 20px 40px;
+            width: 60%; /* Ширина 60% от экрана */
+            max-width: 600px;
+            backdrop-filter: blur(8px); /* Эффект размытия фона */
         }
 
         .popup h1 {
-            font-size: 24px; /* Slightly smaller font size for better fit */
+            font-size: 28px; /* Увеличенный размер шрифта */
             font-weight: bold;
             margin-bottom: 10px;
-            color: #222; /* Dark color for better readability */
+            color: #ff1493; /* Ярко-розовый цвет для заголовка */
             text-transform: uppercase;
         }
 
         .popup p {
-            font-size: 16px;
+            font-size: 18px;
             margin-bottom: 20px;
-            color: #333; /* Darker text color for better readability */
+            color: #fff; /* Белый цвет текста */
             font-style: italic;
             line-height: 1.5;
         }
@@ -58,35 +59,37 @@
         .popup .buttons {
             display: flex;
             justify-content: space-between;
+            gap: 10px; /* Добавлен промежуток между кнопками */
         }
 
         .popup button {
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
             transition: background-color 0.3s;
+            width: 45%; /* Кнопки занимают 45% ширины контейнера */
         }
 
         .popup button.enter {
-            background-color: #ff69b4;
+            background-color: #ff1493; /* Розовый цвет для кнопки ENTER */
             color: white;
         }
 
         .popup button.leave {
-            background-color: #e0e0e0;
-            color: black;
+            background-color: #666; /* Темно-серый цвет для кнопки LEAVE */
+            color: white;
         }
 
         .popup button:hover {
             opacity: 0.9;
-            background-color: #ff1493; /* Darker pink on hover */
+            background-color: #d60073; /* Более темный оттенок розового при наведении */
         }
 
         .popup button.leave:hover {
-            background-color: #bdbdbd; /* Slightly darker gray on hover */
+            background-color: #444; /* Темнее серый при наведении */
         }
     </style>
 </head>
